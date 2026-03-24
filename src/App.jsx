@@ -40,7 +40,7 @@ function App() {
   };
 
   return (
-    <div className="p-6 border rounded-lg w-2xl mx-auto mt-10 bg-white">
+    <div className="w-full max-w-md mx-auto mt-6 sm:mt-10 p-4 sm:p-6 border rounded-xl bg-white shadow-md">
       <h1 className="text-5xl mb-6">Todo List</h1>
 
       <form onSubmit={handleSubmit} className="flex gap-2 mb-6">
